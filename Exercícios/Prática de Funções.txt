@@ -1,0 +1,214 @@
+1-
+/*
+ * Desculpa sora não entendi muito bem o que tinha que
+ * fazer então só fiz um calculo de media normal.
+*/
+void main() {
+  
+  int nota1 = 5;
+  int nota2 = 3;
+  int nota3 = 2;
+  
+  double media = (nota1 + nota2 + nota3)/3;
+  
+  print("Essa foi sua média: $media");
+  
+}
+---------------------------------------------------------------------------------------------------
+2-
+void main() {
+  
+  int n1 = 2;
+  int n2 = 1;
+  
+  if (n1 < n2){
+    
+    print(n1);
+  } else {
+    
+    print(n2);
+  }
+  
+}
+---------------------------------------------------------------------------------------------------
+3- Não consegui fazer.
+
+---------------------------------------------------------------------------------------------------
+4-
+void main() {
+  
+  int n1 = -1;
+
+  if (n1 < 1){
+    
+    print("Negativo");
+  } else {
+    
+    print("Positivo");
+  }
+  
+}
+---------------------------------------------------------------------------------------------------
+5- Não consegui fazer.
+
+---------------------------------------------------------------------------------------------------
+6- Não consegui fazer.
+
+---------------------------------------------------------------------------------------------------
+7-
+void main() {
+  
+  double nota1 = 2;
+  double nota2 = 9;
+  double nota3 = 10;
+  
+  double media = (nota1+nota2+nota3)/3;
+  
+  if(media >= 0.0 && media <= 4.9){
+    
+    print("Sua nota é D");
+    
+  } else if (media >= 5.0 && media <= 6.9 ){
+    
+    print("Sua nota é C");
+    
+  } else if (media >= 7.0 && media <= 8.9 ){
+    
+    print("Sua nota é B");
+    
+  } else {
+    
+    print("Sua nota é A");
+    
+  }
+   
+}
+---------------------------------------------------------------------------------------------------
+8-
+void main() {
+  
+  int idade = 19;
+  
+  if(idade >= 5 && idade <= 7){
+    
+    print("Infantil A");
+    
+  } else if (idade >= 8 && idade <= 10 ){
+    
+    print("Infantil B");
+    
+  } else if (idade >= 11 && idade <= 13 ){
+    
+    print("Juvenil A");
+    
+    
+  } else if (idade >= 14 && idade <= 17 ){
+    
+    print("Juvenil B");
+    
+  } else if (idade >= 18){
+    
+    print("Adulto");
+    
+    
+  } else {
+    
+    print("Não tem idade para a natação");
+    
+  }
+   
+}
+---------------------------------------------------------------------------------------------------
+9- Não consegui fazer.
+
+---------------------------------------------------------------------------------------------------
+10-
+/*
+ * Não consegui fazer a letra b e f. 
+ */ 
+void main() {
+  
+  double n1 = 2;
+  double n2 = 2;
+  
+  String tipoDeCalculo = "a";
+  
+  switch (tipoDeCalculo) {
+      
+    case "a":
+    print(n1+n2);
+    break;
+    
+    case "c":
+    print(n1*n1);
+    break;
+      
+    case "d":
+    print(((n1+n2)*2)*3);
+    break;
+      
+    case "e":
+    print((((n1+n2)*2)*3)/2);
+    break;
+      
+  }
+  
+  
+}
+---------------------------------------------------------------------------------------------------
+11-
+void main() {
+  
+  int n1 = 2;
+  int n2 = 2;
+  
+  if (n1 == n2) {
+    
+    print("Valores iguais");
+    
+  } else if (n1 < n2) {
+    
+    print("$n1, $n2");
+    
+  } else {
+    
+    print("$n1, $n2");
+    
+  }
+  
+}
+---------------------------------------------------------------------------------------------------
+12-
+void main() {
+  
+  double n1 = 2;
+  double n2 = 2;
+  
+  String operacao = "";
+  
+  switch (operacao){
+      
+    case "+":
+    print(n1+n2);
+    break;
+      
+    case "-":
+    print(n1-n2);
+    break;
+    
+    case "*":
+    print(n1*n2);
+    break;
+      
+    case "/":
+    print(n1/n2);
+    break;
+      
+    default:
+    print("Escolha uma operação!");
+    break;
+      
+  }
+  
+}
+---------------------------------------------------------------------------------------------------
